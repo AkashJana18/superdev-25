@@ -60,10 +60,10 @@ impl Desearialize for Swap {
 
 
 fn main() {
-    // let ans = eval!(2 * 3 + 5);
-    // println!("{ans}");
-    // let v = vector!(1,2,5);
-    // println!("{:?}", v);
+    let ans = eval!(2 * 3 + 5);
+    println!("{ans}");
+    let v = vector!(1,2,5);
+    println!("{:?}", v);
 
     let s = Swap{
         qty_1: 1,
